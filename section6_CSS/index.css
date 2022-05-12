@@ -1,0 +1,46 @@
+/** css - casecading style sheet - adjectives of a document  where html was a noun  
+it is a language to describe the visual representation of the document
+pattern of CSS
+selector{
+    property: value;
+}**/
+h1{
+    text-align: center;
+    font-weight: 400;  
+    text-decoration:  underline;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: Papyrus, fantasy; font-size: 80px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.399999618530273px; 
+
+}
+h2{
+    text-align: center;
+    color: hotpink;
+    text-decoration: black dotted;
+    
+}
+
+p{
+    text-align: left;
+    color:olive;
+    line-height: 1.2;
+    
+}
+b{
+    color:springgreen;
+}
+/**
+more CSS elements:
+color: there are named color, RGB, hex,rgb hsl, hex hsl.
+color pick up websites:  all browsers can identify 140 named colors commonly and it is availabel to pick,
+RGB colors; red, green and blue; 0: 255, syntax for css rgb(0:199:200)
+HEX colors: it is same but each number will be represented using hex value syntax: #ffff00 each 2 letters belongs to one color
+    ff- red, ff- green, 00- blue. starts with #
+**/
+
+/**
+font size 100px
+font family to chnage the font 
+customs fonts should downloaded to your system., but can use built in fonts
+cssfontstack.com to try new fonts
+**/
