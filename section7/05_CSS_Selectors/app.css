@@ -64,54 +64,68 @@ footer a {
 h2 + button {
     font-size: 20px;
 }
-/* video 73 to be watched
+/* + is adjecent combinatot paragraph comes right after h2*/
+
 footer > a {
     color: #457b9d;
 }
+/*  > means direct children of footer element a  */
 
 input[type="password"] {
     color: greenyellow;
 }
+/* Attribute selector []. you can select her attribute using []*/
 
 a[href*="google"]{
     color: #1d3557;
 }
-
+/* *= means it can just check the word from the sentense of href */
 
 .post a:hover {
     text-decoration: underline;
 }
-
+/* pseudo classes :hover, :active,:checked, :first ...*/
 
 .post button:active {
     background-color: #02c39a;
+    color: red;
 }
+/*  :active when the button pressed it chnages the background color*/
 
 .post:nth-of-type(2n){
     background-color: #dfe8dc;
 }
+/* :nth-of-type(2n) every 2 other post class is selected to give bg
+if you want select odd numbers of nth element (n-2)*/
 
 h2::first-letter {
     font-size: 50px;
+    color: darkorange;
 }
+/*  pseudo elements -  starts with :: first-letter of something*/
 
 p::first-line {
     color: purple;
 }
 
+/*  pseudo elements -  starts with :: first-line of something*/
 p::selection {
     background-color: #fcbf49;
 }
+/* selects the paragrah with the given BG color*/
 
 .post button:hover {
     background-color: #e63946;
     color: #f1faee;
 }
 
+
 button:hover {
     background-color: olive;
 }
 
+
 button {
     background-color: magenta !important;
-} */
+} 
+/* order matters, as the previous .post button: hover doesn't apple after the above selection */
