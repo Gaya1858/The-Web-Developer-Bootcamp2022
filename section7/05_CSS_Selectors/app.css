@@ -128,4 +128,4 @@ button:hover {
 button {
     background-color: magenta !important;
 } 
-/* order matters, as the previous .post button: hover doesn't apple after the above selection */
+/*  Specificity - order matters, as the previous .post button: hover doesn't apple after the above selection */
